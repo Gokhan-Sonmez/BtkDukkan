@@ -7,7 +7,7 @@ namespace Entities.Concrete
 {
     public class Address:IEntity
     {
-        public int Id { get; set; }
+        public long Id { get; set; }
         public int UserId { get; set; }
         public int CityId { get; set; }
         public string AddressDetail { get; set; }
